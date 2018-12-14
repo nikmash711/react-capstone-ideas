@@ -7,8 +7,8 @@ Have you ever used Goodreads and thought "hey this is pretty awesome, but I wish
 1. Users can sign up with their first name, last name, username (unique), and password to join the RecommendIt social network.
 2. Users can log in with their username and password. After logging in, users will be directed to their profile page.
 3. Users can add a Tryit or Doneit on their profile page - DoneIts refer to things they've already done and want to rate/recommend, TryIts are things they haven't done yet but want to do. 
-4. Users will have a feed page where a list of their friends recent recommendations will show up, with a see more on the bottom to load more.
-5. Users can click on another user's profile (if they follow them) to see their TryIts and DoneIts 
+4. Users will have a feed page where a list of their friend's recent recommendations will show up, along with a "see more" on the bottom to load more.
+5. Users can click on another user's profile (if they follow them) to view their TryIts and DoneIts 
 6. Users can delete and edit their own TryIts and DoneIts 
 7. Users can pin another user's TryIt or DoneIt to add it to their own list 
 8. User can filter on their profile page to only see their TryIts, DoneIts, pr a subcategory (book, show, movie, etc.). They can also search for a specific TryIt or DoneIt on their page. 
