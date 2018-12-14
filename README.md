@@ -17,7 +17,7 @@ Have you ever used Goodreads and thought "hey this is pretty awesome, but I wish
 11. User's can report an issue from a link in the footer that will send me an email letting me know what the issue is. 
 
 
-## Additional Features: 
+## Extension Features: 
 1. Users will have an account settings page where they can add a profile picture (and be able to change it), as well as the ability to change their name or password 
 2. Users can unfollow each other
 3. Users can comment on each other's TryIts and DoneIts
