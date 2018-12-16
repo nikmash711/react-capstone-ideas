@@ -54,6 +54,7 @@ Well now you can keep track of it all with Pawfiles! Pawfiles helps you keep a s
 7. User can directly upload a photo or file from their computer and not via an external link (that way they can upload files/records etc.) 
 8. Reminders can include a time, and can even push notifications to the user (to their notification center or via text/email) - like for daily pills 
 9. Use some of these pet puns throughout the app: https://www.lifelearn.com/2016/02/24/the-jumbo-reference-list-of-pet-puns/
+10. Page puns/design will depend on whether it's a cat, dog, or other. and if it's male/female
 
 ## Foreseeable Issues: 
 1. Storing images/files in MongoDB (I think I'd have to use something called GridFS) 
