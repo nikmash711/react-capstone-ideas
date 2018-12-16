@@ -31,21 +31,25 @@ __________________
 # Pawfiles
 
 ## Summary of App:
-Wouldn't it be nice to keep a timeline of your furry friend's life? From keeping track of their medical appointments to remembering something hilarious they did the other day?
-Well now you can with Pawfiles! Pawfiles helps you keep a simple timeline on your pet: whether it's what the vet said at their last appointment, or a cute memory you don't want to forget.
+Wouldn't it be nice to keep a timeline of your pet's life? From keeping track of their medical appointments to remembering something hilarious they did the other day, it can be easy to forget important things about your furry best friend.
+Well now you can keep track of it all with Pawfiles! Pawfiles helps you keep a simple timeline on your pet: whether it's what the vet said at their last appointment, or a cute memory you just don't want to forget :) 
 
 ## User Stories/MVP: 
-1. User will create an account for themselves with a first name, last name, username, and password
-2. User will be directed to a profile page where they can add a pet and fill out basic information about their pet - breed, gender, type of animal, etc. 
+1. User can create an account for themselves with a first name, last name, username, and password
+2. User will be directed to a profile page where they can add a pet and fill out basic information about their pet - breed, gender, type of animal, profile photo, brief bio, etc. (user can edit this later) 
 3. Single user can have as many "pawfiles" as they wish if they own more than one pet
-4. User can add a post - if it's a memory or achievement, they can write a description and upload a photo corresponding to the memory, if it's medical they can include a description of what the vet said, symptoms, labs, etc. User can choose a date for the post
-5. Posts will be organized on the Pawfile chronologically (not of when the user created the post, but for when the user specified the event took place)
+4. User can add a posts for each pet - if it's a memory or achievement, they can write a description and upload a photo corresponding to the memory, if it's medical/health related they can include a description of what the vet said, symptoms, labs, etc. and upload a related document if applicable. User can choose a date for the post
+5. Posts will be organized on the Pawfile chronologically (not according to when the user created the post but rather when the user specified the event took place)
 6. User can search for posts on their Pawfile, or filter it by category 
+7. There will be a sidebar on the Pawfile where the user can add a list of reminders for that pet: for example, need to buy more litter, or go get groomed next week, etc. 
+8. There will be another sidebar where the user can click which pet's Pawfile they want to edit (only there if they have more than one Pawfile) 
 
 ## Extension Features: 
-1. There can be a sidebar with a list of reminders for that pet: for example, need to buy more litter, or go get groomed next week
+1. User can change their password
 2. Users can see other user's Pawfiles (read-only) via a link
 3. Users can edit their posts, delete their posts, update their pet's profile photo, etc.
+4. Users will only be logged out after a certain amount of time, not every time they refresh
+5. When requests are sent via a GET method, they will be queried to the end of the url so the user can click back or search their history 
 
 ## Foreseeable Issues: 
 1. Storing images in a database like MongoDB (I think I'd have to use something called GridFS) 
