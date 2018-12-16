@@ -25,7 +25,7 @@ Have you ever used Goodreads and thought "hey this is pretty awesome, but I wish
 
 ## Foreseeable Issues: 
 1. It will be challenging to structure the database since it's a social network 
-2. Storing images in a database like MongoDB (I think I'd have to use something called GridFS) 
+2. Storing images in MongoDB (I think I'd have to use something called GridFS) 
 __________________
 
 # Pawfiles
@@ -52,4 +52,4 @@ Well now you can keep track of it all with Pawfiles! Pawfiles helps you keep a s
 5. When requests are sent via a GET method, they will be queried to the end of the url so the user can click back or search their history 
 
 ## Foreseeable Issues: 
-1. Storing images in a database like MongoDB (I think I'd have to use something called GridFS) 
+1. Storing images/files in MongoDB (I think I'd have to use something called GridFS) 
