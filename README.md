@@ -25,3 +25,27 @@ Have you ever used Goodreads and thought "hey this is pretty awesome, but I wish
 
 ## Foreseeable Issues: 
 1. It will be challenging to structure the database since it's a social network 
+2. Storing images in a database like MongoDB (I think I'd have to use something called GridFS) 
+__________________
+
+# Pawfiles
+
+## Summary of App:
+Wouldn't it be nice to keep a timeline of your furry friend's life? From keeping track of their medical appointments to remembering something hilarious they did the other day?
+Well now you can with Pawfiles! Pawfiles helps you keep a simple timeline on your pet: whether it's what the vet said at their last appointment, or a cute memory you don't want to forget.
+
+## User Stories/MVP: 
+1. User will create an account for themselves with a first name, last name, username, and password
+2. User will be directed to a profile page where they can add a pet and fill out basic information about their pet - breed, gender, type of animal, etc. 
+3. Single user can have as many "pawfiles" as they wish if they own more than one pet
+4. User can add a post - if it's a memory or achievement, they can write a description and upload a photo corresponding to the memory, if it's medical they can include a description of what the vet said, symptoms, labs, etc. User can choose a date for the post
+5. Posts will be organized on the Pawfile chronologically (not of when the user created the post, but for when the user specified the event took place)
+6. User can search for posts on their Pawfile, or filter it by category 
+
+## Extension Features: 
+1. There can be a sidebar with a list of reminders for that pet: for example, need to buy more litter, or go get groomed next week
+2. Users can see other user's Pawfiles (read-only) via a link
+3. Users can edit their posts, delete their posts, update their pet's profile photo, etc.
+
+## Foreseeable Issues: 
+1. Storing images in a database like MongoDB (I think I'd have to use something called GridFS) 
