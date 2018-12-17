@@ -56,6 +56,11 @@ Well now you can keep track of it all with Pawfiles! Pawfiles helps you keep a s
 9. Use some of these pet puns throughout the app: https://www.lifelearn.com/2016/02/24/the-jumbo-reference-list-of-pet-puns/
 10. Page puns/design will depend on whether it's a cat, dog, or other. and if it's male/female
 11. "See more" at bottom of timeline to load more posts so db doesn't load all of them at once
+12. Make it an app for flex week!
 
 ## Foreseeable Issues: 
 1. Storing images/files in MongoDB (I think I'd have to use something called GridFS) 
+
+## Competitors:
+1. Vitusvet (mobile app)
+2. Petly (web app) 
