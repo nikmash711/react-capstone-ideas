@@ -31,8 +31,16 @@ __________________
 # Pawfiles
 
 ## Summary of App:
-Wouldn't it be nice to keep a timeline of your pet's life? From keeping track of their medical appointments to remembering something hilarious they did the other day, it can be easy to forget important things about your furry best friend.
-Well now you can keep track of it all with Pawfiles! Pawfiles helps you keep a simple timeline on your pet: whether it's what the vet said at their last appointment, a record of their vaccination schedule, or a cute memory you just don't want to forget :) 
+Wouldn't it be nice to keep a timeline of your pet's life?
+From their medical records to remembering something hilarious they did
+the other day, it can be easy to forget important things about your
+furry best friend. Well now you can keep track of it all with
+Pawfiles! Pawfiles helps you keep a simple timeline on your pet:
+whether it's what the vet said at their last appointment, a record of
+their vaccination schedule, or a cute memory you just don't want to
+forget, this is the place to document it all :) P.S. When looking at
+wireframes, please look at desktop version first since I've included
+descriptions of each page there.
 
 ## User Stories/MVP: 
 1. User can create an account for themselves with a first name, last name, username, and password
