@@ -44,27 +44,33 @@ descriptions of each page there.
 
 ## User Stories/MVP: 
 1. User can create an account for themselves with a first name, last name, username, and password
-2. User will be directed to a profile page where they can add a pet and fill out basic information about their pet - breed, gender, type of animal, profile photo, brief bio, etc. (user can edit this later) 
+2. User will be directed to a home page where they see all their pets (if any) and can add a new pet pawfile by filling out a form (name, species, breed, gender, profile photo, brief bio.). User can edit Pawfile’s basic info later 
 3. Single user can have as many "pawfiles" as they wish if they own more than one pet
-4. User can add a posts for each pet - if it's a memory or achievement, they can write a description and upload a photo corresponding to the memory, if it's medical/health related they can include a description of what the vet said, symptoms, labs, which vet, location (map api?) etc. User can choose a date for the post
+4. User can add posts for each pet - it can be a memory post with a title, description, date, and a photo URL corresponding to the memory, OR a medical related post where they can include a title, description, symptoms, labs, vet, location (maps api to make it load as they type?), date, and a link to a file. Once posted, only the info filled out will show (empty fields will not be displayed). User chooses the date.
 5. Posts will be organized on the Pawfile chronologically (not according to when the user created the post but rather when the user specified the event took place)
-6. User can search for posts on their Pawfile, or filter it by category 
-7. There will be a sidebar on the Pawfile where the user can add a list of reminders for that pet: for example, need to buy more litter, or go get groomed next week, etc. 
-8. There will be another sidebar where the user can click which pet's Pawfile they want to edit (only there if they have more than one Pawfile) 
+6. User can search for specific posts on the Pawfile, and filter it by category
+and/or date 
+7. There will be a sidebar on the Pawfile with a brief bio about the pet as well as a list of reminders for that pet: for
+example, need to buy more litter, or go get groomed next week, etc. User can add/delete reminders to this list 
+8. The URL of the image the user links will show an actual image once posted, and the user can click on that image to see an enlarged version of it.
+9. Navbar with Home/Py Pets - that takes you to the pet's profile, Settings, Logout 
+
 
 ## Extension Features: 
 1. User can change their password
 2. Users can see other user's Pawfiles (read-only) via a link
 3. Users can edit their posts, delete their posts, update their pet's profile photo, etc.
-4. Users will only be logged out after a certain amount of time, not every time they refresh
-5. When requests are sent via a GET method, they will be queried to the end of the url so the user can click back or search their history 
+4. Users will only be logged out after a certain amount of time, not every time they refresh or leave the browser (implement auth stuff) 
+5. When requests are sent via a GET method, they will be queried to the end of the url so the user can click back or search their history (use React Routers) 
 6. Users can search for vets in their area (Yelp api?) 
-7. User can directly upload a photo or file from their computer and not via an external link (that way they can upload files/records etc.) 
-8. Reminders can include a time, and can even push notifications to the user (to their notification center or via text/email) - like for daily pills 
+7. User can directly upload a photo or file from their computer (for posts or profile photo) and not via an external link (that way they can upload files/records etc.) Can do this by either using GridFs, or saving that file to another db (like AWS), and storing a ref to it in my db. 
+8. Reminders can include a time, and can even push notifications to the user (to their notification center) - like for daily pills 
 9. Use some of these pet puns throughout the app: https://www.lifelearn.com/2016/02/24/the-jumbo-reference-list-of-pet-puns/
-10. Page puns/design will depend on whether it's a cat, dog, or other. and if it's male/female
+10. Parts of the design (and puns) will change based on whether it's a cat vs dog, male vs female. Design will hopefully look like an actual timeline
 11. "See more" at bottom of timeline to load more posts so db doesn't load all of them at once
 12. Make it an app for flex week!
+13. Ability to change password when logged in
+14. Ability to reset password (this would involve storing user's emails, a security issue. Or they would have to report a problem, and then I'd need some way of verifying their identity). 
 
 ## Foreseeable Issues: 
 1. Storing images/files in MongoDB (I think I'd have to use something called GridFS) 
