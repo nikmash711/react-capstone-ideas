@@ -70,7 +70,7 @@ example, need to buy more litter, or go get groomed next week, etc. User can add
 11. "See more" at bottom of timeline to load more posts so db doesn't load all of them at once
 12. Make it an app for flex week!
 13. Ability to change password when logged in
-14. Ability to reset password (this would involve storing user's emails, a security issue. Or they would have to report a problem, and then I'd need some way of verifying their identity). 
+14. Ability to reset password (this would involve storing user's emails, a security issue. Or they would have to report a problem, and then I'd need some way of verifying their identity). https://nodemailer.com/about/, https://www.mailgun.com/blog/how-to-send-transactional-email-in-a-nodejs-app-using-the-mailgun-api, https://www.w3schools.com/nodejs/nodejs_email.asp
 
 ## Foreseeable Issues: 
 1. Storing images/files in MongoDB (I think I'd have to use something called GridFS) 
